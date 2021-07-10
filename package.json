@@ -3,18 +3,8 @@
     "cordova": {
         "id": "cordova-plugin-compile-time",
         "platforms": [
-            "firefoxos",
-            "tizen",
             "android",
-            "amazon-fireos",
-            "ubuntu",
-            "ios",
-            "blackberry10",
-            "wp7",
-            "wp8",
-            "windows8",
-            "windows",
-            "browser"
+            "ios"
         ]
     },
     "description": "Read the version of the App from config.xml and make it available in js.",
