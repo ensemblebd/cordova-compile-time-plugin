@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-compile-time" version="0.4.2">
-    <name>Compile Time</name>
+    <name>cordova-plugin-compile-time</name>
     <description>Read the compile time info of the App from config.xml and cmd line then make it available in js.</description>
     <license>MIT</license>
     <keywords>cordova,compiletime,id,name,version,description,author,env</keywords>
@@ -14,13 +14,5 @@
         <engine name="cordova" version="&gt;=3.0.0"/>
     </engines>
     <platform name="android"/>
-    <platform name="amazon-fireos"/>
-    <platform name="ubuntu"/>
     <platform name="ios"/>
-    <platform name="blackberry10"/>
-    <platform name="wp7"/>
-    <platform name="wp8"/>
-    <platform name="windows8"/>
-    <platform name="windows"/>
-    <platform name="browser"/>
 </plugin>
