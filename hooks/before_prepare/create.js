@@ -4,12 +4,8 @@ var fs = require('fs');
 
 module.exports = function(context) {
   var env = / --release ?/.test(context.cmdLine) ? 'production' : 'development';
-  var util = context.requireCordovaModule(
-    'cordova-lib/src/cordova/util'
-  );
-  var ConfigParser = context.requireCordovaModule(
-    'cordova-lib/src/configparser/ConfigParser'
-  );
+  var util = context.requireCordovaModule('cordova-lib/src/cordova/util.js');
+  var ConfigParser = require('cordova-common/src/ConfigParser/ConfigParser');
   var xml = new ConfigParser(util.projectConfig(util.isCordova()));
   var config = {
     id: xml.packageName(),
